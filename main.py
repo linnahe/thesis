@@ -16,7 +16,7 @@ def load_arr(image):
 
 def is_image(fused_image_current, original_image_array):
     (x1, y1, z1) = fused_image_current
-    (x2, y2, z2) = original_image_array.shape
+    (z2, y2, x2) = original_image_array.shape
 
     if not (x2 - 1 > x1 and y2 - 1 >  y1 and z2 -1 > z1):
         return False
