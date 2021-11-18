@@ -2,7 +2,8 @@ import SimpleITK as sitk
 import matplotlib.pyplot as plt
 import numpy as np
 
-IMAGE_PATHS = ["registered_7.nii.gz", "registered_11to7.nii.gz"]
+# IMAGE_PATHS = ["registered_7.nii.gz", "registered_11to7.nii.gz"]
+IMAGE_PATHS = ["registered_1.nii.gz", "registered_11to1.nii.gz"]
 SPACING = 0.5
 ALPHA = 0.5
 BLACK = float(0)
